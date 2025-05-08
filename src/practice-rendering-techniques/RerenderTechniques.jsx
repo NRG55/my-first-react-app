@@ -108,3 +108,15 @@ function ListTernaryExample(props) {
       </>
     );
   } 
+
+// A simplified algorithm of the process during re-render looks like this:
+
+//   1. first, React will generate the “before” and “after” “snapshots” of the elements
+//   2. second, it will try to identify those elements that already existed on the page, so that it can re-use them instead of creating them from scratch
+//         - if the “key” attribute exists, it will assume that items with the same “before” and “after” key are the same
+//         - if the “key” attribute doesn’t exist, it will just use sibling’s indexes as the default “key”
+//   3. third, it will:
+//         - get rid of the items that existed in the “before” phase, but don’t exist in the “after” (i.e. unmount them)
+//         - create from scratch items that haven’t existed in the “before” variant (i.e. mount them)
+//         - update items that existed “before” and continue to exist “after” (i.e. re-render them)
+  
