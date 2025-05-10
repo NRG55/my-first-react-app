@@ -342,6 +342,39 @@ export function FeedbackForm2() {
   );
 }
 
+//Challenge 5 - add a new state variable to keep track of the number of times the background color has been changed
+const COLORS = ["pink", "green", "blue", "yellow", "purple"];
+
+export function Colors() {
+  const [backgroundColor, setBackgroundColor] = useState(COLORS[0]);
+  const [count, setCount] = useState(0); // added
+
+  const onButtonClick = (color) => () => {
+    setBackgroundColor(color);
+    setCount(count + 1); // added
+  };
+
+  return (
+    <div
+      className="Colors"
+      style={{
+        backgroundColor,        
+      }} 
+    > 
+      <h1>The number of times the background color has been changed: {count}</h1> {/* //added */}
+      {COLORS.map((color) => (
+        <button
+          type="button"
+          key={color}
+          onClick={onButtonClick(color)}
+          className={backgroundColor === color ? "selected" : ""}
+        >
+          {color}
+        </button>
+      ))}
+    </div>
+  );
+}
 
 
 

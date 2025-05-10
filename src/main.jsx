@@ -16,7 +16,13 @@ import './index.css';
 // import { GalleryState2 } from './practice-state/State';
 // import { Form } from './practice-state/State';
 // import { FeedbackForm } from './practice-state/State';
-import { FeedbackForm2 } from './practice-state/State-introduction';
+// import { Colors } from './practice-state/State-introduction';
+// import { FeedbackForm2 } from './practice-state/State-introduction';
+// import { Person2 } from './practice-state/State-structure-and-updates';
+// import { TrafficLight } from './practice-state/State-structure-and-updates.jsx';
+// import { Clock } from './practice-state/State-structure-and-updates';
+// import { TravelPlan } from './practice-state/State-structure-and-updates';
+import { MailClient2 } from './practice-state/State-structure-and-updates';
 
 
 createRoot(document.getElementById('root')).render(
@@ -35,6 +41,12 @@ createRoot(document.getElementById('root')).render(
     {/* <GalleryState2 />     */}
     {/* <Form /> */}
     {/* <FeedbackForm /> */}
-    <FeedbackForm2 />
+    {/* <FeedbackForm2 /> */}
+    {/* <Colors /> */}
+    {/* <Person2 /> */}
+    {/* <TrafficLight /> */}
+    {/* <Clock /> */}
+    {/* <TravelPlan /> */}
+    <MailClient2 />
   </StrictMode>,
 )
