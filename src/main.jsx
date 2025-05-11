@@ -18,11 +18,13 @@ import './index.css';
 // import { FeedbackForm } from './practice-state/State';
 // import { Colors } from './practice-state/State-introduction';
 // import { FeedbackForm2 } from './practice-state/State-introduction';
-// import { Person2 } from './practice-state/State-structure-and-updates';
+import { Person3 } from './practice-state/State-structure-and-updates';
 // import { TrafficLight } from './practice-state/State-structure-and-updates.jsx';
 // import { Clock } from './practice-state/State-structure-and-updates';
 // import { TravelPlan } from './practice-state/State-structure-and-updates';
-import { MailClient2 } from './practice-state/State-structure-and-updates';
+// import { MailClient2 } from './practice-state/State-structure-and-updates';
+// import { SyncedInputs } from './practice-state/State-sharing-between-components';
+// import { FilterableList } from './practice-state/State-sharing-between-components';
 
 
 createRoot(document.getElementById('root')).render(
@@ -43,10 +45,12 @@ createRoot(document.getElementById('root')).render(
     {/* <FeedbackForm /> */}
     {/* <FeedbackForm2 /> */}
     {/* <Colors /> */}
-    {/* <Person2 /> */}
+    <Person3 />
     {/* <TrafficLight /> */}
     {/* <Clock /> */}
     {/* <TravelPlan /> */}
-    <MailClient2 />
+    {/* <MailClient2 /> */}
+    {/* <SyncedInputs /> */}
+    {/* <FilterableList /> */}
   </StrictMode>,
 )
