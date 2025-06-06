@@ -25,6 +25,9 @@ import { Person3 } from './practice-state/State-structure-and-updates';
 // import { MailClient2 } from './practice-state/State-structure-and-updates';
 // import { SyncedInputs } from './practice-state/State-sharing-between-components';
 // import { FilterableList } from './practice-state/State-sharing-between-components';
+// import Clock from './practice-side-effects/SideEffect';
+// import { TodoList } from './practice-side-effects/SideEffect';
+import ClassTodoList from './practice-class/ClassTodoList';
 
 
 createRoot(document.getElementById('root')).render(
@@ -45,12 +48,15 @@ createRoot(document.getElementById('root')).render(
     {/* <FeedbackForm /> */}
     {/* <FeedbackForm2 /> */}
     {/* <Colors /> */}
-    <Person3 />
+    {/* <Person3 /> */}
     {/* <TrafficLight /> */}
     {/* <Clock /> */}
     {/* <TravelPlan /> */}
     {/* <MailClient2 /> */}
     {/* <SyncedInputs /> */}
     {/* <FilterableList /> */}
+    {/* <Clock /> */}
+    {/* <TodoList /> */}
+    <ClassTodoList name={'My Todo List'}/>
   </StrictMode>,
 )
