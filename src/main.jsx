@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-// import App from './App.jsx';
+import App from './App.jsx';
 // import Greeting from './Greetings.jsx';
 // import AnimalList from './practice-rendering-techniques/RerenderTechniques.jsx';
 // import PackingList from './practice-conditional-rendering/PackingList.jsx';
@@ -18,7 +18,7 @@ import './index.css';
 // import { FeedbackForm } from './practice-state/State';
 // import { Colors } from './practice-state/State-introduction';
 // import { FeedbackForm2 } from './practice-state/State-introduction';
-import { Person3 } from './practice-state/State-structure-and-updates';
+// import { Person3 } from './practice-state/State-structure-and-updates';
 // import { TrafficLight } from './practice-state/State-structure-and-updates.jsx';
 // import { Clock } from './practice-state/State-structure-and-updates';
 // import { TravelPlan } from './practice-state/State-structure-and-updates';
@@ -27,7 +27,7 @@ import { Person3 } from './practice-state/State-structure-and-updates';
 // import { FilterableList } from './practice-state/State-sharing-between-components';
 // import Clock from './practice-side-effects/SideEffect';
 // import { TodoList } from './practice-side-effects/SideEffect';
-import ClassTodoList from './practice-class/ClassTodoList';
+// import ClassTodoList from './practice-class/ClassTodoList';
 
 
 createRoot(document.getElementById('root')).render(
@@ -57,6 +57,7 @@ createRoot(document.getElementById('root')).render(
     {/* <FilterableList /> */}
     {/* <Clock /> */}
     {/* <TodoList /> */}
-    <ClassTodoList name={'My Todo List'}/>
+    {/* <ClassTodoList name={'My Todo List'}/> */}
+    <App />
   </StrictMode>,
 )
