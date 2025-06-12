@@ -77,9 +77,18 @@ describe("CustomButton", () => {
 
     it("should not call the onClick function when it isn't clicked", async () => {
         const onClick = vi.fn();
-        
+
         render(<CustomButton onClick={onClick} />);
 
         expect(onClick).not.toHaveBeenCalled();
     });
 });
+
+// --------------- Mock a child component example -------------
+
+// jest.mock('../submission', () => ({ submission, isDashboardView }) => (
+//   <>
+//     <div data-test-id="submission">{submission.id}</div>
+//     <div data-test-id="dashboard">{isDashboardView.toString()}</div>
+//   </>
+// ));
