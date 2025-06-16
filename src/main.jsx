@@ -32,10 +32,11 @@ import './index.css';
 // import Profile from './practice-router/Profile.jsx';
 // import AppRouter from './practice-router/AppRouter.jsx';
 // import ErrorPage from './practice-router/ErrorPage.jsx';
-import routes from './practice-router/routes';
+// import routes from './practice-router/routes';
+import Image from './practice-fetch/Fetch';
 
 
-const router = createBrowserRouter(routes);
+// const router = createBrowserRouter(routes);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -66,6 +67,7 @@ createRoot(document.getElementById('root')).render(
     {/* <TodoList /> */}
     {/* <ClassTodoList name={'My Todo List'}/> */}
     {/* <AppRouter /> */}
-    <RouterProvider router={router}/>
+    {/* <RouterProvider router={router}/> */}
+    <Image />
   </StrictMode>,
 )
