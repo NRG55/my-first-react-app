@@ -5,3 +5,15 @@
     border-radius: 4px;
     border: none;
 }
+
+.primary {
+    composes: button;
+    composes: primaryColor from "colors.module.css";
+    composes: primaryBg from "colors.module.css";
+}
+ 
+.secondary {
+    composes: button;
+    composes: secondaryColor from "colors.module.css";
+    composes: secondaryBg from "colors.module.css";
+}

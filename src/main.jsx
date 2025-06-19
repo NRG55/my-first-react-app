@@ -35,6 +35,7 @@ import './index.css';
 // import routes from './practice-router/routes';
 // import Image from './practice-fetch/Fetch';
 import Button from './practice-styling/CSS-module/Button';
+import StyledButton from './practice-styling/CSS-in-JS/Button';
 
 // const router = createBrowserRouter(routes);
 
@@ -69,6 +70,8 @@ createRoot(document.getElementById('root')).render(
     {/* <AppRouter /> */}
     {/* <RouterProvider router={router}/> */}
     {/* <Image /> */}
-    <Button />
+    {/* <Button /> */}
+    <StyledButton>Default Button</StyledButton>
+    <StyledButton primary>Primary Button</StyledButton>
   </StrictMode>,
 )
