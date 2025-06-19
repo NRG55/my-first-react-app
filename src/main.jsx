@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 // import App from './App.jsx';
 // import Greeting from './Greetings.jsx';
@@ -33,8 +33,8 @@ import './index.css';
 // import AppRouter from './practice-router/AppRouter.jsx';
 // import ErrorPage from './practice-router/ErrorPage.jsx';
 // import routes from './practice-router/routes';
-import Image from './practice-fetch/Fetch';
-
+// import Image from './practice-fetch/Fetch';
+import Button from './practice-styling/CSS-module/Button';
 
 // const router = createBrowserRouter(routes);
 
@@ -68,6 +68,7 @@ createRoot(document.getElementById('root')).render(
     {/* <ClassTodoList name={'My Todo List'}/> */}
     {/* <AppRouter /> */}
     {/* <RouterProvider router={router}/> */}
-    <Image />
+    {/* <Image /> */}
+    <Button />
   </StrictMode>,
 )
