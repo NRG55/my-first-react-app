@@ -34,8 +34,9 @@ import './index.css';
 // import ErrorPage from './practice-router/ErrorPage.jsx';
 // import routes from './practice-router/routes';
 // import Image from './practice-fetch/Fetch';
-import Button from './practice-styling/CSS-module/Button';
-import StyledButton from './practice-styling/CSS-in-JS/Button';
+// import Button from './practice-styling/CSS-module/Button';
+// import StyledButton from './practice-styling/CSS-in-JS/Button';
+import Profile from './practice-fetch/Profile';
 
 // const router = createBrowserRouter(routes);
 
@@ -71,7 +72,8 @@ createRoot(document.getElementById('root')).render(
     {/* <RouterProvider router={router}/> */}
     {/* <Image /> */}
     {/* <Button /> */}
-    <StyledButton>Default Button</StyledButton>
-    <StyledButton primary>Primary Button</StyledButton>
+    {/* <StyledButton>Default Button</StyledButton> */}
+    {/* <StyledButton primary>Primary Button</StyledButton> */}
+    <Profile delay={1000} />
   </StrictMode>,
 )
