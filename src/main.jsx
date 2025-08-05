@@ -36,7 +36,8 @@ import './index.css';
 // import Image from './practice-fetch/Fetch';
 // import Button from './practice-styling/CSS-module/Button';
 // import StyledButton from './practice-styling/CSS-in-JS/Button';
-import Profile from './practice-fetch/Profile';
+// import Profile from './practice-fetch/Profile';
+
 
 // const router = createBrowserRouter(routes);
 
@@ -74,6 +75,6 @@ createRoot(document.getElementById('root')).render(
     {/* <Button /> */}
     {/* <StyledButton>Default Button</StyledButton> */}
     {/* <StyledButton primary>Primary Button</StyledButton> */}
-    <Profile delay={1000} />
+    {/* <Profile delay={1000} /> */}
   </StrictMode>,
 )
