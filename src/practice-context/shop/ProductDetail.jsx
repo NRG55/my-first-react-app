@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ShopContext } from "./Shop";
+import { ShopContext } from "../Shop";
 
 export default function ProductDetail() {
     const { products, addToCart } = useContext(ShopContext);

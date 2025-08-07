@@ -37,7 +37,7 @@ import './index.css';
 // import Button from './practice-styling/CSS-module/Button';
 // import StyledButton from './practice-styling/CSS-in-JS/Button';
 // import Profile from './practice-fetch/Profile';
-
+import MyAppUpdatingValueViaContext from './practice-context/themeExamples/MyAppUpdatingValueViaContext';
 
 // const router = createBrowserRouter(routes);
 
@@ -76,5 +76,6 @@ createRoot(document.getElementById('root')).render(
     {/* <StyledButton>Default Button</StyledButton> */}
     {/* <StyledButton primary>Primary Button</StyledButton> */}
     {/* <Profile delay={1000} /> */}
+    <MyAppUpdatingValueViaContext />
   </StrictMode>,
 )

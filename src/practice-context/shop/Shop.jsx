@@ -1,5 +1,5 @@
 import { useState, createContext } from "react";
-import Header from "./Header";
+import Header from "../Header";
 import ProductDetail from "./ProductDetail";
 
 export const ShopContext = createContext({
