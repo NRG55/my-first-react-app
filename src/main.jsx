@@ -39,7 +39,8 @@ import './index.css';
 // import Profile from './practice-fetch/Profile';
 // import MyAppUpdatingValueViaContext from './practice-context/updatingContextExamples/MyAppUpdatingValueViaContext';
 // import MyAppUpdatingObjectViaContext from './practice-context/updatingContextExamples/MyAppUpdatingObjectViaContext';
-import MyAppMultipleContexts from './practice-context/updatingContextExamples/MyAppMultipleContexts';
+// import MyAppMultipleContexts from './practice-context/updatingContextExamples/MyAppMultipleContexts';
+import MyAppExtractingProvidersToAComponent from './practice-context/updatingContextExamples/MyAppExtractingProvidersToAComponent';
 
 // const router = createBrowserRouter(routes);
 
@@ -80,6 +81,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Profile delay={1000} /> */}
     {/* <MyAppUpdatingValueViaContext /> */}
     {/* <MyAppUpdatingObjectViaContext /> */}
-    <MyAppMultipleContexts />
+    {/* <MyAppMultipleContexts /> */}
+    <MyAppExtractingProvidersToAComponent />
   </StrictMode>,
 )
