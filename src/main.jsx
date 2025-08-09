@@ -38,7 +38,8 @@ import './index.css';
 // import StyledButton from './practice-styling/CSS-in-JS/Button';
 // import Profile from './practice-fetch/Profile';
 // import MyAppUpdatingValueViaContext from './practice-context/updatingContextExamples/MyAppUpdatingValueViaContext';
-import MyAppUpdatingObjectViaContext from './practice-context/updatingContextExamples/MyAppUpdatingObjectViaContext';
+// import MyAppUpdatingObjectViaContext from './practice-context/updatingContextExamples/MyAppUpdatingObjectViaContext';
+import MyAppMultipleContexts from './practice-context/updatingContextExamples/MyAppMultipleContexts';
 
 // const router = createBrowserRouter(routes);
 
@@ -78,6 +79,7 @@ createRoot(document.getElementById('root')).render(
     {/* <StyledButton primary>Primary Button</StyledButton> */}
     {/* <Profile delay={1000} /> */}
     {/* <MyAppUpdatingValueViaContext /> */}
-    <MyAppUpdatingObjectViaContext />
+    {/* <MyAppUpdatingObjectViaContext /> */}
+    <MyAppMultipleContexts />
   </StrictMode>,
 )
