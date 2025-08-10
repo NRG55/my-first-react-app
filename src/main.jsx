@@ -40,8 +40,8 @@ import './index.css';
 // import MyAppUpdatingValueViaContext from './practice-context/updatingContextExamples/MyAppUpdatingValueViaContext';
 // import MyAppUpdatingObjectViaContext from './practice-context/updatingContextExamples/MyAppUpdatingObjectViaContext';
 // import MyAppMultipleContexts from './practice-context/updatingContextExamples/MyAppMultipleContexts';
-import MyAppExtractingProvidersToAComponent from './practice-context/updatingContextExamples/MyAppExtractingProvidersToAComponent';
-
+// import MyAppExtractingProvidersToAComponent from './practice-context/updatingContextExamples/MyAppExtractingProvidersToAComponent';
+import TaskApp from './practice-context/updatingContextExamples/scalingUpWithContextAndReducer/TaskApp';
 // const router = createBrowserRouter(routes);
 
 createRoot(document.getElementById('root')).render(
@@ -82,6 +82,7 @@ createRoot(document.getElementById('root')).render(
     {/* <MyAppUpdatingValueViaContext /> */}
     {/* <MyAppUpdatingObjectViaContext /> */}
     {/* <MyAppMultipleContexts /> */}
-    <MyAppExtractingProvidersToAComponent />
+    {/* <MyAppExtractingProvidersToAComponent /> */}
+    <TaskApp />
   </StrictMode>,
 )
