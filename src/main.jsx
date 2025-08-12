@@ -41,7 +41,9 @@ import './index.css';
 // import MyAppUpdatingObjectViaContext from './practice-context/updatingContextExamples/MyAppUpdatingObjectViaContext';
 // import MyAppMultipleContexts from './practice-context/updatingContextExamples/MyAppMultipleContexts';
 // import MyAppExtractingProvidersToAComponent from './practice-context/updatingContextExamples/MyAppExtractingProvidersToAComponent';
-import TaskApp from './practice-context/updatingContextExamples/scalingUpWithContextAndReducer/TaskApp';
+// import TaskApp from './practice-context/updatingContextExamples/scalingUpWithContextAndReducer/TaskApp';
+import AppMessenger from './practice-reducing-state/dispatchActionsFromEventHandlers/AppMessenger';
+
 // const router = createBrowserRouter(routes);
 
 createRoot(document.getElementById('root')).render(
@@ -83,6 +85,7 @@ createRoot(document.getElementById('root')).render(
     {/* <MyAppUpdatingObjectViaContext /> */}
     {/* <MyAppMultipleContexts /> */}
     {/* <MyAppExtractingProvidersToAComponent /> */}
-    <TaskApp />
+    {/* <TaskApp /> */}
+    <AppMessenger />
   </StrictMode>,
 )
