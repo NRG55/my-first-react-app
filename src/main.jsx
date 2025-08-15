@@ -42,7 +42,8 @@ import './index.css';
 // import MyAppMultipleContexts from './practice-context/updatingContextExamples/MyAppMultipleContexts';
 // import MyAppExtractingProvidersToAComponent from './practice-context/updatingContextExamples/MyAppExtractingProvidersToAComponent';
 // import TaskApp from './practice-context/updatingContextExamples/scalingUpWithContextAndReducer/TaskApp';
-import AppMessenger from './practice-reducing-state/dispatchActionsFromEventHandlers/AppMessenger';
+// import AppMessenger from './practice-reducing-state/dispatchActionsFromEventHandlers/AppMessenger';
+import AppMemoWrapperAndUseMemo from './practice-useRef-useMemo-useCallback/AppMemoWrapperAndUseMemo';
 
 // const router = createBrowserRouter(routes);
 
@@ -86,6 +87,7 @@ createRoot(document.getElementById('root')).render(
     {/* <MyAppMultipleContexts /> */}
     {/* <MyAppExtractingProvidersToAComponent /> */}
     {/* <TaskApp /> */}
-    <AppMessenger />
+    {/* <AppMessenger /> */}
+    <AppMemoWrapperAndUseMemo />
   </StrictMode>,
 )
