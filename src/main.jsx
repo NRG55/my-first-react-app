@@ -43,7 +43,8 @@ import './index.css';
 // import MyAppExtractingProvidersToAComponent from './practice-context/updatingContextExamples/MyAppExtractingProvidersToAComponent';
 // import TaskApp from './practice-context/updatingContextExamples/scalingUpWithContextAndReducer/TaskApp';
 // import AppMessenger from './practice-reducing-state/dispatchActionsFromEventHandlers/AppMessenger';
-import AppMemoWrapperAndUseMemo from './practice-useRef-useMemo-useCallback/AppMemoWrapperAndUseMemo';
+// import AppMemoWrapperAndUseMemo from './practice-useRef-useMemo-useCallback/AppMemoWrapperAndUseMemo';
+import Counter from './practice-useRef-useMemo-useCallback/AppUseRefAndUseIntervalCustomHook';
 
 // const router = createBrowserRouter(routes);
 
@@ -88,6 +89,7 @@ createRoot(document.getElementById('root')).render(
     {/* <MyAppExtractingProvidersToAComponent /> */}
     {/* <TaskApp /> */}
     {/* <AppMessenger /> */}
-    <AppMemoWrapperAndUseMemo />
+    {/* <AppMemoWrapperAndUseMemo /> */}
+    {/* <Counter /> */}
   </StrictMode>,
 )
